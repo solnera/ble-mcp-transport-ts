@@ -1,0 +1,14 @@
+export const SERVICE_UUID = "00001999-0000-1000-8000-00805f9b34fb";
+export const RX_CHAR_UUID = "4963505f-5258-4000-8000-00805f9b34fb";
+export const TX_CHAR_UUID = "4963505f-5458-4000-8000-00805f9b34fb";
+
+export const TYPE_SINGLE = 0x00;
+export const TYPE_START = 0x40;
+export const TYPE_CONT = 0x80;
+export const TYPE_END = 0xc0;
+export const HEADER_TYPE_MASK = 0xc0;
+export const HEADER_SEQ_MASK = 0x3f;
+
+export const MAX_GATT_VALUE_LEN = 512;
+export const ATT_OVERHEAD = 3;
+export const MIN_PAYLOAD = 20;
