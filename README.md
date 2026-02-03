@@ -13,7 +13,7 @@ A Node.js BLE transport that enables MCP clients to communicate with MCP devices
 
 ### Install
 ```bash
-npm install ble-mcp-transport
+npm i ble-mcp-transport
 ```
 
 ```typescript
