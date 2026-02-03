@@ -1,6 +1,6 @@
 {
   "name": "ble-mcp-transport",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Bluetooth Low Energy transport for MCP using Web Bluetooth API",
   "type": "module",
   "main": "./dist/index.js",
