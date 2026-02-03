@@ -15,6 +15,7 @@
     "dist"
   ],
   "scripts": {
+    "test": "npm run build",
     "build": "tsc",
     "watch": "tsc --watch",
     "clean": "rm -rf dist"
