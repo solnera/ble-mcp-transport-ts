@@ -11,6 +11,11 @@ A Node.js BLE transport that enables MCP clients to communicate with MCP devices
 
 ## Quick Start
 
+### Install
+```bash
+npm install ble-mcp-transport
+```
+
 ```typescript
 import { Client } from "@modelcontextprotocol/sdk/client/index.js";
 import { BleTransport } from "ble-mcp-transport";
